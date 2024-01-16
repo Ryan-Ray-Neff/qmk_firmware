@@ -26,13 +26,14 @@
         ]
     },
     "processor": "RP2040",
-    "url": "",
+    "url": "https://github.com/JellyTitan/ErgoDonk-Zero",
     "usb": {
         "device_version": "1.0.0",
         "pid": "0x455A",
         "vid": "0x4A54"
     },
     "split": {
+        "soft_serial_pin": "GP1",
         "enabled": true,
         "matrix_pins": {
             "right": {
