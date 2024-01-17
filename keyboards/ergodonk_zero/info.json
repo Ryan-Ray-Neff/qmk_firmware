@@ -1,7 +1,9 @@
 {
     "manufacturer": "Ryan Neff",
-    "keyboard_name": "ergodonk_zero",
-    "maintainer": "Ryan Neff",
+    "keyboard_name": "Ergodonk Zero",
+    "url": "https://github.com/JellyTitan/ErgoDonk-Zero",
+    "bootloader_instructions": "Hold the BOOT button while plugging in the usb cable",
+    "maintainer": "Ryan Neff <github@JellyTitan.com>",
     "bootloader": "rp2040",
     "diode_direction": "COL2ROW",
     "features": {
@@ -14,7 +16,7 @@
         "extrakey": true,
         "mousekey": true,
         "nkro": true,
-        "tap_dance": true,
+        "tap_dance": true
     },
     "matrix_pins": {
         "cols": ["GP13", "GP26", "GP5", "GP27", "GP4", "GP28", "GP3", "GP29", "GP15"],
@@ -26,9 +28,8 @@
         ]
     },
     "processor": "RP2040",
-    "url": "https://github.com/JellyTitan/ErgoDonk-Zero",
     "usb": {
-        "device_version": "1.0.0",
+        "device_version": "0.2.0",
         "pid": "0x455A",
         "vid": "0x4A54"
     },
