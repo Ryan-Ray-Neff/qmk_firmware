@@ -40,7 +40,7 @@
             "right": {
                 "cols": ["GP9", "GP6", "GP27", "GP5", "GP28", "GP4", "GP29", "GP3", "GP7" ],
                 "rows": ["GP26", "GP14", "GP10", "GP11", "GP12", "GP13"]
-            },
+            }
         },
         "encoder": {
             "right": {
@@ -159,7 +159,7 @@
                 {"label": "Page Down", "matrix": [10, 8], "x": 7.8, "y": 3.45},
                 {"label": "Tab", "matrix": [11, 7], "x": 8.9, "y": 4.5, "h": 1.5},
                 {"label": "Enter", "matrix": [11, 6], "x": 10, "y": 4.3},
-                {"label": "UpArrow", "matrix": [11, 4], "x": 12, "y": 4.3}
+                {"label": "UpArrow", "matrix": [11, 4], "x": 12, "y": 4.3},
                 {"label": "DownArrow", "matrix": [11, 3], "x": 7.9, "y": 4.5, "h": 1.5},
                 {"label": "Fn", "matrix": [11, 2], "x": 8.9, "y": 4.5, "h": 1.5},
                 {"label": "RWin", "matrix": [11, 1], "x": 10, "y": 4.3},
@@ -169,7 +169,7 @@
                 {"label": "Enter", "matrix": [5, 8], "x": 2, "y": 4.3},
 
                 {"label": "6", "matrix": [11, 8], "x": 7.9, "y": 4.5, "h": 1.5},
-                {"label": "Delete", "matrix": [11, 5], "x": 11, "y": 4},
+                {"label": "Delete", "matrix": [11, 5], "x": 11, "y": 4}
             ]
         }
     }
