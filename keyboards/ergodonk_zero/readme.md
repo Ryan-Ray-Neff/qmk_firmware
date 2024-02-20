@@ -1,16 +1,14 @@
-# ergodonk_zero
+# ErgoDonk Zero
 
-![ergodonk_zero](imgur.com image replace me!)
+![ErgoDonk Zero](https://raw.githubusercontent.com/JellyTitan/ErgoDonk-Zero/main/images/v0.1_hero.JPG)
 
-*A short description of the keyboard/project*
+ErgoDonk Zero is a 6×9+6 keys split ortholinear keyboard with encoder & solenoid
+ support, hotswap sockets for MX or Choc v1 low profile switches, and uses the 
+ RP2040 Zero MCU.
 
 * Keyboard Maintainer: [Ryan Neff](https://github.com/Ryan Neff)
-* Hardware Supported: *The PCBs, controllers supported*
-* Hardware Availability: *Links to where you can find this hardware*
-
-Make example for this keyboard (after setting up your build environment):
-
-    `make ergodonk_zero:default`
+* Hardware Supported: ErgoDonk Zero
+* Hardware Availability: https://github.com/JellyTitan/ErgoDonk-Zero
 
 Flashing example for this keyboard:
 
