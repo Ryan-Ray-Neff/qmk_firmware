@@ -7,7 +7,7 @@
     "diode_direction": "COL2ROW",
     "encoder": {
         "rotary": [
-            {"pin_a": "GP14", "pin_b": "GP7", "resolution": 4}
+            {"pin_a": "GP14", "pin_b": "GP7"}
         ]
     },
     "features": {
@@ -32,7 +32,7 @@
         "encoder": {
             "right": {
                 "rotary": [
-                    {"pin_a": "GP8", "pin_b": "GP15", "resolution": 4}
+                    {"pin_a": "GP8", "pin_b": "GP15"}
                 ]
             }
         },
@@ -48,7 +48,7 @@
     "usb": {
         "device_version": "0.2.0",
         "pid": "0x455A",
-        "vid": "0x4A54"
+        "vid": "0x1209"
     },
     "layouts": {
         "LAYOUT_split_6x9_6": {
