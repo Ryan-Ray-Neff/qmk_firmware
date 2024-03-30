@@ -20,7 +20,6 @@
         "extrakey": true,
         "mousekey": true,
         "nkro": true,
-        "tap_dance": true
     },
     "matrix_pins": {
         "cols": ["GP13", "GP26", "GP5", "GP27", "GP4", "GP28", "GP3", "GP29", "GP15"],
@@ -42,7 +41,16 @@
                 "rows": ["GP26", "GP14", "GP10", "GP11", "GP12", "GP13"]
             }
         },
-        "soft_serial_pin": "GP1"
+        "soft_serial_pin": "GP1",
+        "transport": {
+            "sync": {
+                "layer_state": true
+            }
+        }
+    },
+    "tags": ["ortho", "split", "encoder", "tenting_puck", "choc"],
+    "tapping": {
+        "term": 210
     },
     "url": "https://github.com/JellyTitan/ErgoDonk-Zero",
     "usb": {

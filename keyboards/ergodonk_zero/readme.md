@@ -6,23 +6,23 @@ ErgoDonk Zero is a 6×9+6 keys split ortholinear keyboard with encoder & solenoi
  support, hotswap sockets for MX or Choc v1 low profile switches, and uses the 
  RP2040 Zero MCU.
 
-* Keyboard Maintainer: [Ryan Neff](https://github.com/Ryan Neff)
+* Keyboard Maintainer: [Ryan Neff](https://github.com/JellyTitan)
 * Hardware Supported: ErgoDonk Zero
 * Hardware Availability: https://github.com/JellyTitan/ErgoDonk-Zero
 
+Remember you have to flash both halves of the keyboard for it to work!
+
+Make example for this keyboard (after setting up your build environment):
+
+    `make ergodonk_zero:default`
+
 Flashing example for this keyboard:
 
-```bash
-# For flashing the left half...
-make ergodonk_zero:default:uf2-split-left
-# or the qmk cli equivalent:
-qmk flash -kb ergodonk_zero --keymap default -bl uf2-split-left
+    `make ergodonk_zero:default:uf2-split-left`
+    `make ergodonk_zero:default:uf2-split-right`
 
-# For flashing the right half...
-make ergodonk_zero:default:uf2-split-right
-# or the qmk cli equivalent:
-qmk flash -kb ergodonk_zero --keymap default -bl uf2-split-right
-```
+Handedness should be programmed in EEPROM once, you can use the commands above to
+flash the firmware and the EEPROM.
 
 See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_tools) and the [make instructions](https://docs.qmk.fm/#/getting_started_make_guide) for more information. Brand new to QMK? Start with our [Complete Newbs Guide](https://docs.qmk.fm/#/newbs).
 
