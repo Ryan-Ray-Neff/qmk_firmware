@@ -6,14 +6,13 @@
 #define RP2040_BOOTLOADER_DOUBLE_TAP_RESET
 #define RP2040_BOOTLOADER_DOUBLE_TAP_RESET_TIMEOUT 500U
 
-// Haptics 
+// Haptics
 #define SOLENOID_PIN GP2
 #define SOLENOID_DEFAULT_DWELL 20
 #define SOLENOID_MIN_DWELL 4
 #define HAPTIC_OFF_IN_LOW_POWER 1
 #define NO_HAPTIC_MOD
 
-#define EE_HANDS
 // The left hand matrix at 0,0 is not used, 'Esc' is at 0,1.
 #define BOOTMAGIC_LITE_ROW 0
 #define BOOTMAGIC_LITE_COLUMN 1

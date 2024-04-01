@@ -1,6 +1,6 @@
 {
-    "manufacturer": "Ryan Neff",
     "keyboard_name": "ErgoDonk Zero",
+    "manufacturer": "Ryan Neff",
     "maintainer": "Ryan Neff <github@JellyTitan.com>",
     "bootloader": "rp2040",
     "bootloader_instructions": "Hold the BOOT button while plugging in the usb cable",
