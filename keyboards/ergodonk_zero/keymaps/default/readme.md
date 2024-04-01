@@ -3,7 +3,7 @@
 # Default keymap for ErgoDonk Zero Keyboard
 
 Simplified keymap to serve as a starting point for further customizations.
-Based loosely on the ErgoDox EZ starting keymap. Hold down `a` or `;` to access the 10-key layer.
+Based loosely on the [ErgoDox EZ default keymap](https://configure.zsa.io/ergodox-ez/layouts/default/latest/0). Hold down `a` or `;` to access the symbol layer.
 
 Note the Haptic on/off toggle & dwell time adjustments on the left hand.
 
