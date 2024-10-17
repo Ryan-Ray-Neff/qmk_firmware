@@ -42,6 +42,9 @@
             }
         },
         "soft_serial_pin": "GP1",
+        "serial": {
+            "driver": "vendor"
+        },
         "transport": {
             "sync": {
                 "layer_state": true
