@@ -1,6 +1,6 @@
 # ErgoDonk Zero
 
-![ErgoDonk Zero](https://raw.githubusercontent.com/JellyTitan/ErgoDonk-Zero/main/images/v0.1_hero.JPG)
+![ErgoDonk Zero](https://i.imgur.com/nQYe2B7.jpeg)
 
 ErgoDonk Zero is a 6×9+6 keys split ortholinear keyboard with encoder & solenoid
  support, hotswap sockets for MX or Choc v1 low profile switches, and uses the 
