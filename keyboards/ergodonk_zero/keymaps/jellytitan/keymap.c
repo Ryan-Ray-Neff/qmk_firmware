@@ -12,15 +12,15 @@ enum custom_layers {
     _CATSAFE,
 };
 
-/* Defines macros for use with the configurators "Any" key. (These are non-standard macros). */
-/* Move active application right half. */
-#define KC_CSGRA LCTL(LSFT(LGUI(KC_RGHT)))
-/* Move active application to left half. */
-#define KC_CSGLA LCTL(LSFT(LGUI(KC_LEFT)))
+/* Defines macros for use with the configurators "Any" key. (These are non-standard macros, they come from the Mac 'magnet' app for positioning screens). */
+/* Move active application to the right half of the screen. */
+#define KC_CSGRA LCTL(LALT((KC_RGHT)))
+/* Move active application to left half of the screen. */
+#define KC_CSGLA LCTL(LALT(KC_LEFT))
 /* Maximize active application. */
-#define KC_MAXI LCTL(LSFT(LGUI(KC_UP)))
+#define KC_MAXI LCTL(LALT(KC_ENT))
 /* Minimize active application. */
-#define KC_MINI LCTL(LSFT(LGUI(KC_DOWN)))
+#define KC_MINI LCTL(LALT(KC_C))
 
 /* Rotary encoder variables used to hold down Command (GUI) key while cycling through open programs. */
 bool is_cmd_tab_active = false;
@@ -72,9 +72,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                   KC_GRV,   KC_1,    KC_2,    KC_3,    KC_4,   KC_5,    HF_TOGG, KC_VOLU,            KC_PSCR, KC_INS , KC_6   , KC_7   , KC_8   , KC_9   , KC_0   , KC_MINS, KC_EQL ,KC_BSPC,
                   KC_TAB ,  KC_Q,    KC_W,    KC_E,    KC_R,   KC_T,    HF_DWLU, KC_VOLD,            KC_SCRL, KC_DEL , KC_Y   , KC_U   , KC_I   , KC_O   , KC_P   , KC_LBRC, KC_RBRC,KC_BSLS,
                   LT(1,KC_CAPS),LT(2,KC_A),LCTL_T(KC_S),KC_D,LGUI_T(KC_F),KC_G,HF_DWLD,KC_MUTE,      KC_PAUS, KC_5   , KC_H,RGUI_T(KC_J),KC_K,RCTL_T(KC_L),LT(2,KC_SCLN),LT(1,KC_QUOT), KC_ENT,
-                  KC_LSFT,  LALT_T(KC_Z), KC_X,KC_C   , KC_V   , KC_B   , KC_MINI,    KC_HOME,         KC_PGUP,   KC_MAXI, KC_N   , KC_M   , KC_COMM, KC_DOT ,RALT_T(KC_SLSH), KC_RSFT,
-         KC_LCTL, KC_LGUI,  KC_LALT, KC_LEFT, KC_RGHT,  KC_SPC, KC_BSPC, KC_END,                      KC_PGDN,  KC_TAB, KC_ENT , KC_UP  , KC_DOWN, KC_NO  , KC_RGUI, KC_RCTL,
-                                                       QK_GESC,              KC_ENT,                    KC_6,     KC_DEL
+                  KC_LSFT,  LALT_T(KC_Z), KC_X,KC_C   , KC_V   , KC_B   , KC_MINI,KC_HOME,           KC_PGUP, KC_MAXI, KC_N   , KC_M   , KC_COMM, KC_DOT ,RALT_T(KC_SLSH), KC_RSFT,
+         KC_LCTL, KC_LGUI,  KC_LALT, KC_LEFT, KC_RGHT, KC_SPC, KC_BSPC, KC_END,                      KC_PGDN,  KC_TAB, KC_ENT , KC_UP  , KC_DOWN, KC_NO  , KC_RGUI, KC_RCTL,
+                                                       QK_GESC,                   KC_ENT,             KC_6,                      KC_DEL
     ),
     [_LOWER] = LAYOUT_split_6x9_6(
                   QK_BOOT , QK_MAKE , QK_RBT  , KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS ,                                  KC_TRNS , KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
